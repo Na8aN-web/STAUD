@@ -1,0 +1,2 @@
+# STAUD
+Accomodation website
