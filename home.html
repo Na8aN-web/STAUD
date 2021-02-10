@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="homedes.css" rel="stylesheet">
+        <link href="mediaquery.css" rel="stylesheet">
+        <script src="homej.js"></script>
+        <script src="jquery-3.4.1.js"></script>
+        <link href="bootstrap.min.css" rel="stylesheet">
+        <script src="bootstrap.bundle.min.js"></script>
+
+    </head>
+    <body>
+        <div id="popup">
+            <div><img src="./images/1.png" width="400px" height="650px" class="dumbpic" ></div>
+            <div id="subscribe">     
+                <img src="./images/100.png" width="200px" height="130px" class="secimg"> 
+                <div id="sudsrie">
+                <h2>Get Stauscribed</h2>
+                <p >Recieve Email alerts about newly listed properties,staud gists and news by signing up to our mailing list</p>
+            </div>
+                <form>
+                    <div id="details"><input  type="email" placeholder="Enter Email Address" class="eaddress"><input  type="submit" value="SUBSCRIBE" class="submit"></div>
+                </form>
+            </div>
+            <div class="close">  
+                <button id="buti">
+                &times;
+            </button>
+        </div>
+        </div>
+        
+        <div id="main">
+            <nav>
+                <div id="image"><img src="./images/3.png" width="130px" height="60px" class="unknown"></div>
+                <div id="navbar">
+                    <ul>
+                        <li><a href="../blog/staud gists/gists.html" class="text-white">BLOG</a></li>
+                        <li><a href="#" class="text-white">|</a></li>
+                        <li><a href="../orders/order.html"  class="text-white">ORDERS</a></li>
+                        <li><a href="#" class="text-white">|</a></li>
+                        <li><a href="../companies/company.html" class="text-white">COMPANIES</a></li>
+                        <li><a href="#" class="text-white">|</a></li>
+                        <li><a href="../hostels/hostel.html" class="text-white">HOSTELS</a></li>
+                        <li><a href="#" class="text-white">|</a></li>
+                        <li><a href="../houses/house.html" class="text-white">HOUSES</a></li>
+                   
+                </ul>
+                </div>
+            </nav>
+            <div class="dropdown">
+                <button class="btn dropup" type="button" id="dropdownmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <svg width="20" height="25">
+                        <path d="M0,5 30,5" stroke="#2668B2" stroke-width="2" stroke-height="1"/>
+                        <path d="M0,14 30,14" stroke="#2668B2" stroke-width="2" stroke-height="1"/>
+                        <path d="M0,23 30,23" stroke="#2668B2" stroke-width="2" stroke-height="1"/>
+                </svg>
+                </button>
+                <div class="dropdown-menu" aria-labelled-by="dropdownmenu" id="newdrop">
+                    <a href="../houses/house.html" class="dropdown-item"  >HOUSES</a>
+                    <a href="../hostels/hostel.html" class="dropdown-item" >HOSTELS</a>
+                    <a href="../companies/company.html" class="dropdown-item" >COMPANIES</a>
+                    <a href="../orders/order.html" class="dropdown-item" >ORDERS</a>
+                    <a href="../blog/staud gists/gists.html" class="dropdown-item" >BLOG</a>
+                    <a href="#" class="dropdown-item" id="fake">REGISTER</a>
+                </div>
+            </div>
+            <div id="bkground">
+                <div id="search">
+                    <h2>Find your dream home....in school</h2>
+                    <form>
+                        <input type="text" placeholder="Enter locality, area" class="area">
+                        <br>
+                        <div id="flex1">
+                            <div class="newform" data-width="auto">
+                                <label for="types">Type</label>
+                                <br>
+                                <select  class="types" >
+                                    <option value="" disabled selected>All Types</option>
+                                    <option>1er</option>
+                                    <option>1er</option>
+                                </select>
+                            </div>
+                            <div class="newform" data-width="auto">
+                                <label for="campus">Campus</label>
+                                <br>
+                                <select  class="types" >
+                                    <option value="" disabled selected>All schools</option>
+                                    <option>fdlk </option>
+                                    <option>fdk lf b</option>
+                                </select>
+                            </div>
+                            <div class="newform" data-width="auto" >
+                                <label for="price">Price Range</label>
+                                <br>
+                                <select  class="types" >
+                                    <option value="" disabled selected>No range</option>
+                                    <option>145op</option>
+                                    <option>145</option>
+                                </select>
+                            </div>
+                            <div id="flex2">
+                                <div class="newform " data-width="auto">
+                                    <label for="campus">Room size</label>
+                                    <br>
+                                    <select class="types" id="campus" >
+                                        <option value="" disabled selected>Any size</option>
+                                        <option>fdlk </option>
+                                        <option>fdk lf b</option>
+                                    </select>
+                                </div>
+                                <div class="newform" data-width="auto">
+                                    <label for="price">Furnished</label>
+                                    <br>
+                                    <select class="types" id="price" >
+                                        <option value="" disabled selected>All options</option>
+                                        <option>145op</option>
+                                        <option>145</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="thanks">
+                            <div ><a href="#"  id="more">More Staud options</a></div>
+                            <div><input type="submit" value="Search" id="newsear"></div>
+                        </div>
+                            
+                    </form>
+                </div>
+            </div>
+            <div id="estate">
+                <h2>Partner Real Estate Companies</h2>
+                <div id="flex3">
+                    <div><img src="./images/5.png" height="100px" width="250px"></div>
+                    <div><img src="./images/6.png" height="100px" ></div>
+                    <div><img src="./images/7.png" height="100px"  ></div>
+                    <div><img src="./images/8.png" height="100px" ></div>
+                </div>
+            </div>
+            <h2 id="feature">Featured homes</h2>
+            <div id="bigflex">
+            <div class="body">
+                <div class="firimg">
+                    <img src="./images/9.jpg" width="300px" height="200px" class="direct">
+                </div>
+                <div class="text" style="margin-left: 40px;">
+                        <h4> Green Hostel</h4>
+                        <h4 > Abuleoja, Yaba </h4>
+                        <p>2 man room - #400,000 pa</p>
+                        <p>4 man room - #280,000 pa</p>
+                        <p>6 man room - #150,000 pa</p>
+                    <button class="but">View Staud</button>
+                </div>
+            </div>
+            <div class="body">
+            <div class="firimg">
+                <img src="./images/9.jpg" width="300px" height="200px" class="direct">
+            </div>
+            <div class="text" style="margin-left: 40px;">
+                    <h4> Green Hostel</h4>
+                    <h4 > Abuleoja, Yaba </h4>
+                    <p>2 man room - #400,000 pa</p>
+                    <p>4 man room - #280,000 pa</p>
+                    <p>6 man room - #150,000 pa</p>
+                <button class="but">View Staud</button>
+            </div>
+    </div>
+            <div class="body">
+                <div class="firimg">
+                    <img src="./images/10.png"width="300px" height="200px"  class="direct">
+                </div>
+                <div class="text"   style=" margin-left: 40px;" >
+                        <h4>  Self Contain Apartment</h4>
+                        <h4 >UNILAG Second Gate, </h4>
+                        <h4>Iwaya, Lagos</h4>
+                        <p>#350,000 pa</p>
+                    <button class="but">View Staud</button>
+                </div>
+            </div>
+            <div class="body">
+                    <div class="firimg">
+                        <img src="./images/10.png"width="300px" height="200px"  class="direct">
+                    </div>  
+                <div class="text" style="margin-left: 40px;">
+                <h4>  Self Contain Apartment</h4>
+                <h4 >UNILAG Second Gate, </h4>
+                <h4>Iwaya, Lagos</h4>
+                <p>#350,000 pa</p>
+            <button class="but">View Staud</button>
+            </div>
+        </div>
+            <div id="butflex"> <button id="nextpage">More Deals</button></div>
+           
+            <div id="about">
+                <div> 
+                    <h2 id="title">About Staud</h2>
+                    <div id="fulltext">
+                        Staud is a digital real estate product focused on university 
+                        students, it is simply the solution to every students' accommodation needs. We understand the struggle that
+                        YOU go through, the SCAMS, the REGRETS after fruitless 
+                        STRUGGLES. You are in the right place and we have just 
+                        the Staud for you!
+                    </div>
+                </div>
+                <div id="secimg"><img src="./images/11.png" width="500px" height="350px"></div>
+                </div>
+            <div id="secabout">
+               <div id="secfulltext">
+                <p id="head" >How Staud works</p>
+               <p>GetStaud.com helps you find the home you need for school without stress or worry.</p> 
+                <p id="seperate">Visit GetStaud.com</p>
+                <p >Step 1: Search for your dream home</p>
+                <p  >Step 2: Contact agent for inspection</p>
+                <p >Step 3: Pay and move into your Staud</p>
+            </div>
+               <div id="thirdimg"><img src="./images/12.png" width="560px" height="560px"></div>
+            </div>
+            <div id="register">
+                <div>Are you a developer or agent? List your properties with us</div> 
+                <div> <button id="regbut">Register</button></div>
+            </div>
+            <div id="end">
+                <div id="newnav">
+                        <ul id="newlist">
+                        <li><a href="#"  class="text-white">ABOUT US</a></li>
+                        <li><a href="#"  class="text-white">PRIVACY POLICY</a></li>
+                        <li><a href="#"  class="text-white">ABOUT US</a></li>
+                        <li><a href="#"  class="text-white">FAQS</a></li>
+                        <li><a href="#"  class="text-white">TERMS OF USE</a></li>
+                    </ul>
+                </div>
+                
+                <div id="media">
+                    <h3>FOLLOW US ON SOCIAL MEDIA</h3>
+                    <div id="flex6">
+                        <div class="omg"><img src="./images/13.png" width="40px" height="40px"></div>
+                        <div class="omg"><img src="./images/14.png"  width="40px" height="40px"></div>
+                        <div class="omg"><img src="./images/15.png" width="40px" height="40px"></div>
+                        <div class="omg"><img src="./images/16.png" width="40px" height="40px"></div>
+                    </div>
+                </div>
+                <footer>@2020 Staud, Accomodation made easy, all rights reserved</footer>
+            </div>
+        <script>
+        $(window).on("load", function(){
+                setTimeout(function() {
+                $('#popup').show();
+                $('#popup').css("display", "flex");
+                $('#main').hide();
+            }, 1000);
+        });
+        $('.close').click(function(){
+            $('#main').show();
+            $('#popup').hide();
+        });
+        $('#more').click(function(){
+            $('#flex2').css("display", "flex");
+            $('#more').css("visibility", "hidden");
+            return false;
+        });
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,368 @@
+@media(max-width: 1350px){
+
+    #bigflex{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .direct{
+        width: 400px;
+        height: 300px;
+    }
+    .body p{
+        font-size: 23px;
+    }
+    
+    .body h4{
+        font-size: 30px;
+    }
+}
+@media(max-width: 1200px){
+
+    #sectitle, #title{
+        font-size: 25px;
+    }
+    #fulltext{
+        width: 600px;
+    }
+    #secfulltext, #fulltext{
+        font-size: 22px;
+    }
+    .body p{
+        font-size: 23px;
+    }
+    
+    .body h4{
+        font-size: 27px;
+    }
+    #bkground{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    #search{
+        margin-left: 120px;
+        margin-right: 120px;
+     
+    }
+    .dumbpic{
+        width: 350px;
+        height: 550px;
+    }
+
+}
+@media(max-width: 1100px){
+    #title{
+        font-size: 28px;
+        text-align: center
+    }
+    #about{
+        text-align: center;9
+    }
+    #fulltext{
+        font-size: 23px;
+        width: 100%;
+        text-align: center;
+    }
+    #secabout{
+        text-align: center;
+    }
+    #secfulltext{
+        font-size: 25px;
+        text-align: center;
+        width: 100%;
+        line-height: 40px;
+    }
+    #thirdimg, #secimg{
+        display: none;
+    }
+    #head{
+        text-align: center;
+    }
+    #register{
+        font-size: 17px;
+        height: 25px;
+    }
+    #register button{
+        padding: 7px;
+        font-size: 13px;
+        border: none;
+        width: 150px;
+    }
+    .but{
+        padding: 8px;
+        width: 200px;
+    }
+    #register{
+        display: none;
+    }
+    .direct{
+        width: 400px;
+        height: 250px;
+    }
+    .body{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .body p{
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    .body h4{
+        font-size: 25px;
+        text-align: center;
+    }
+    .text{
+        text-align: center;
+        margin: 20px;
+    }
+    .but{
+        padding: 9px;
+        font-size: 20px;
+        width: 200px;
+    }
+    #flex3{
+        flex-direction: column;
+        justify-content: center;
+    }
+    #thanks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    #search h2{
+        font-size: 36px;
+    }
+    #feature{
+        font-size: 30px;
+    }
+    .unknown{
+        width: 100px;
+        height: 50px;
+    }
+    nav li {
+        position: relative;
+        bottom: 50px;   
+    }
+    #image{
+        position: relative;
+        top: 15px;
+    }
+    #subscribe h2{
+        font-size: 28px;
+    }
+    #subscribe p{
+        font-size: 17px;
+    }
+    .submit{
+        font-size: 15px;
+    }
+    .eaddress{
+        font-size: 15px;
+    }
+    .dumbpic{
+        width: 280px;
+        height: 500px;
+    }
+    .secimg{
+        width: 170px;
+        height: 110px;
+        }
+    }
+
+@media(max-width: 850px){
+   .but{
+    margin: 20px;
+}
+#newlist li {
+    display: block;
+}
+#bkground{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+#search{
+    margin-left: 90px;
+    margin-right: 90px; 
+}
+.submit{
+    font-size: 15px;
+    padding: 10px;
+}
+.eaddress{
+    font-size: 15px;
+    padding: 10px;
+}
+#subscribe{
+    margin-left: 10px;
+}
+}
+@media(max-height: 600px){
+    #subscribe h2{
+        font-size: 28px;
+    }
+    #subscribe p{
+        font-size: 17px;
+    }
+    .dumbpic{
+        width: 300px;
+        height: 500px;
+    }
+    .secimg{
+        width: 170px;
+        height: 110px;
+    }
+ }
+@media(max-width: 800px){
+
+    #newlist li{
+        font-size: 13px;
+    }
+    .but{
+        width: 150px;
+        font-size: 17px;
+        padding: 7px;
+    }
+    #media h3{
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    nav li {
+        display: none;
+    }
+    #dropdownmenu{
+        display: block;
+    }
+    #flex1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .types{
+        width: 80%;
+        font-size: 15px;
+    }
+    #flex2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        display: none;
+    }
+    #bkground{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #search{
+        margin-left: 50px;
+        margin-right: 50px;
+     
+    }
+    #search h2{
+        font-size: 32px;
+    }
+    .area{
+        font-size: 17px;
+    }
+    #fulltext{
+        font-size: 22px;
+    }
+    
+    #secfulltext{
+        font-size: 22px;
+    }
+    .dumbpic{
+        display: none;
+    }
+    #subscribe{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+ 
+    
+}
+  @media(max-width: 600px){
+    .direct{
+        width: 300px;
+    }
+    #bkground{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #search{
+        margin-left: 40px;
+        margin-right: 40px;
+     
+    }
+    #search h2{
+        font-size: 28px;
+        padding: 20px;
+    }
+    #search{
+        padding: 10px;
+     
+    }
+    #subscribe h2{
+        font-size: 25px;
+    }
+    #subscribe p{
+        font-size: 15px;
+    }
+    .submit{
+        padding: 10px;
+        font-size: 12px;
+    }
+    .eaddress{
+        padding: 10px;
+        font-size: 12px;
+    }
+   
+    .secimg{
+        width: 170px;
+        height: 110px;
+    }
+}
+@media(max-width: 500px){
+.direct{
+    width: 170px;
+    height: 150px;
+}
+.body p{
+    font-size: 18px;
+}
+
+.body h4{
+    font-size: 20px;
+}
+#search h2{
+    font-size: 25px;
+    padding: 15px;
+}
+#feature{
+    font-size: 25px;
+}
+#estate h2{
+    font-size: 25px;
+}
+#fulltext{
+    font-size: 19px;
+}
+
+#secfulltext{
+    font-size: 19px;
+}
+.but{
+    width: 150px;
+    font-size: 14px;
+    padding: 5px;
+}
+#head{
+    font-size: 30px;
+}
+}
+
+
+

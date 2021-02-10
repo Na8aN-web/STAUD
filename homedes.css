@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+  
+}
+body{
+    overflow-x: hidden;
+}
+#popup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    position: relative;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 2px 2px #777;
+    align-items: center;
+}
+#dropdownmenu{
+    background-color: white;
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    display: none;
+}
+#newdrop{
+    font-size: 17px;
+    text-align: center;
+    font-family: montserrat;
+    padding: 10px;
+    background-color: #2668B2;
+    color: white;
+}
+#fake:hover{
+    background-color: orange;
+}
+#subscribe{
+    text-align: left;
+    margin-left: 30px;
+}
+.secsub{
+    position: relative;
+    left: 5px;
+}
+#sudsrie{
+    margin-top: 20px;
+}
+#sudsrie h2{
+    font-size: 45px;
+    font-family: montserrat;
+    font-weight: 700;
+    padding: 10px;
+}
+#sudsrie p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+#details{ 
+    padding: 5px;
+    border-radius: 20px;
+
+}
+hr{
+    color: white;
+}
+.submit{
+    background-color:#2668B2 ;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #999;
+    padding: 15px;
+    text-align: center;
+    font-family: montserrat;
+    border-radius: 0 20px 20px 0;
+}
+.eaddress{
+    font-size: 20px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    border: 1px solid #999;
+    font-family: montserrat;
+    border-radius: 20px 0 0 20px;
+    padding: 15px;
+}
+#buti{
+    font-size: 50px;
+    color: #F68920;
+    font-weight: 900;
+    background-color: white;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#image{
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+nav{
+    background-color: #2668B2;
+    overflow: hidden;
+    height: 80px;
+}
+nav li {
+    display: inline;
+    font-size: 17px;
+    text-align: center;
+    font-family: montserrat;
+    color: white;
+    padding: 10px;
+    float: right;
+    position: relative;
+    bottom: 60px;
+    
+}
+#navbar{
+    margin-right: 50px;
+    margin-left: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#bkground{
+    background-image: url(./images/4.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-position: center;
+    background-color: white;
+}
+#search{
+    background-color: #444;
+    opacity: 0.8;
+    color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 50px;
+    text-align: center;
+}
+
+#search h2{
+    font-size: 40px;
+    font-family: montserrat;
+}
+.area{
+    width: 80%;
+    padding: 10px;
+    font-family: montserrat;
+    border-radius: 30px;
+    margin: 20px;
+    border: 1px solid #999;
+    font-size: 20px; 
+}
+#flex1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.newform{
+    font-size: 20px;
+    font-family: montserrat;
+    padding: 20px;
+    text-align: center;
+}
+.types{
+    width: 200px;
+    font-size: 17px;
+    font-family: montserrat;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#newsear{
+    font-size: 20px;
+    font-family: montserrat;
+    border-radius: 30px;
+    width: 200px;
+    padding: 7.5px;
+    color: white;
+    background-color: #F68920;
+    border: none;
+}
+#thanks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#more{
+    font-size: 15px;
+    font-family: montserrat;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+#more:hover{
+    font-weight: 900;
+}
+
+#flex2{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    display: none;
+}
+#estate{
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+#estate h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: montserrat;
+    color: #2668B2;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+#flex3{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+#feature{
+    text-align: center;
+    font-size: 35px;
+    font-family: montserrat;
+    color: #2668B2;
+    background-color: white;
+    margin-top: 60px;
+    font-weight: 700;
+}
+#bigflex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    background-color: #f4f4f4;
+    padding: 30px;
+}
+.body p{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.body h4{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text{
+    text-align: left;
+
+}
+.but{
+    padding: 10px;
+    background-color: #F68920;
+    color: white;
+    font-family:  montserrat;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    width: 200px;
+}
+#butflex{
+    display: flex;
+    justify-content: center;
+}
+#nextpage{
+    padding: 10px;
+    background-color: #2668B2;
+    color: white;
+    font-family:  montserrat;
+    font-size: 20px;
+    border: none;
+    width: 200px;
+    text-align: center;
+}
+#about{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 100px;
+    background-color: #f4f4f4;
+    padding: 50px;
+}
+#title{
+    text-align: left;
+    font-size: 35px;
+    font-family: montserrat;
+    color: #2668B2;
+    background-color: #f4f4f4;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+#fulltext{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 800px;
+    text-align: left;
+}
+#secabout{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 50px;
+}
+#head{
+    background-color: white;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 35px;
+    font-family: montserrat;
+    color: #2668B2;
+    font-weight: 700;
+}
+#seperate{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#secfulltext{
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    line-height: 50px;
+}
+
+#register{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    font-family: montserrat;
+    width: 100%;
+    padding: 20px;
+    font-size: 25px;
+}
+
+#register button{
+    padding: 10px;
+    background-color: #F68920;
+    color: white;
+    font-family:  montserrat;
+    font-size: 17px;
+    border: none;
+    width: 200px;
+    margin-left: 10px;
+    
+}
+#end{
+    width: 100%;
+}
+#newnav {
+    background-color: #2668B2;
+    overflow: hidden;
+    padding-top: 40px;
+    text-align: center;
+}
+#newnav ul{
+    padding: 0;
+    margin: 0;
+}
+
+#newlist li{
+    display: inline;
+    font-size: 15px;
+    text-align: center;
+    font-family: montserrat;
+    color: white;
+    line-height: 30px;
+    padding: 10px;
+    background-color: #2668B2;
+  
+}
+
+#media h3{
+    text-align: center;
+    background-color: #2668B2;
+    font-family: montserrat;
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+}
+#flex6{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    background-color: #2668B2;
+}
+.omg{
+    padding: 20px;
+}
+#end{
+    background-color: #2668B2;
+}
+
+footer{
+    text-align: center;
+    background-color: #2668B2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+
+}
